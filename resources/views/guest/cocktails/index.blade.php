@@ -16,7 +16,6 @@
                 <th scope="col">Procedimento</th>
                 <th scope="col">Prezzo</th>
                 <th scope="col">Url Image</th>
-                <h1>hey</h1>
             </tr>
         </thead>
         <tbody>
