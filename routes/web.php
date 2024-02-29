@@ -14,9 +14,8 @@ use App\Http\Controllers\Guest\CocktailController as GuestCocktailController;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', [GuestCocktailController::class, 'index']);
+
 
 Route::name('cocktail.')->group(
     function () {
